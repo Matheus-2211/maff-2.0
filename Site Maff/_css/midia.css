@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+ul#album-foto {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+ul#album-foto li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    -webkit-transition: all .6s ease-in; /*eifeito mais lento no zoom da imagem*/
+}
+ul#album-foto li span {
+    opacity: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0,0,0,.3);
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+
+ ul#album-foto li:hover span { /*configurar se vai aparecer a lengenda*/
+     opacity: 0;
+ }
+ul#album-foto li#foto01 {
+    background: url('../_img-ministracao/serie-fe-p1.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-foto li#foto01:hover {  /*Editar o efeito do zoom para tras*/
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-foto li#foto02 {
+    background: url('../_img-ministracao/serie-fe-p2.jpg') no-repeat;
+    background-position: 50% 50%; /* colocar a imagem no meio*/
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-foto li#foto02:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-foto li#foto03 {
+    background: url('../_img-ministracao/serie-fe-p3.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-foto li#foto03:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-foto li#foto04 {
+    background: url('../_img-ministracao/serie-fe-p4.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-foto li#foto04:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-foto li#foto05 {
+    background: url('../_img-ministracao/serie-fe-p5.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-foto li#foto05:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-foto li#foto06 {
+    background: url('../_img-ministracao/serie-fe-p6.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-foto li#foto06:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-foto li#foto07 {
+    background: url('../_img-ministracao/serie-fe-p7.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-foto li#foto07:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-foto li#foto08 {
+    background: url('../_img-ministracao/serie-fe-p8.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-foto li#foto08:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-foto li#foto09 {
+    background: url('../_img-ministracao/serie-fe-p9.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-foto li#foto09:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-foto li#foto10 {
+    background: url('../_img-ministracao/serie-fe-p10.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-foto li#foto10:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-foto li#foto11 {
+    background: url('../_img-ministracao/serie-fe-p11.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-foto li#foto11:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-foto li#foto12 {
+    background: url('../_img-ministracao/serie-fe-p12.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-foto li#foto12:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-foto li#foto13 {
+    background: url('../_img-ministracao/serie-fe-p13.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-foto li#foto13:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+/* Formatação da pagina de ministracoes*/
+ 
+div#video {
+    margin: 10px;
+    border: solid 1x black;
+    text-align: center;
+}
+div#video1 {
+    margin: 100px;
+}
+/*Formatação do botões >*/
+#prev {
+    position: absolute;
+    font-size: 15pt;
+    width: 50px;
+    left: 5%;
+    top: 155%;
+    
+}
+#next {
+    position: absolute;
+    font-size: 15pt;
+    right: 5%;
+    top: 155%;
+}

@@ -1,0 +1,283 @@
+@charset "UTF-8";
+
+	body {
+	
+	background-color:#606060;
+	color: black;
+	/*text-align: justify;*/
+	}
+	div#interface {
+		width: 1000px;
+		background-color: #ffffff;
+		margin: -20px auto 0px auto;
+		box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+		padding: 60px;
+		
+	}
+
+	header#cabecalho img#icone {
+		position: absolute;
+		top: -0px;
+	}
+	header#cabecalho {
+		border-bottom: 1px #606060 solid;
+		height: 200px;
+	}
+	header#cabecalho h1 {
+		font-family: Arial, sans-serif;
+		font-size: 30pt;
+		color: #606060;
+		text-shadow: 1px 1px 2px rgba(0,0,0,.6);
+	}
+	p{
+		text-align: justify;
+		text-indent: 30px;
+	}
+	#cabecalho h2 {
+		display: block;
+		position: absolute;
+		left: 870px;
+		top: 160px;
+	}
+	#cabecalho h2{
+		margin: 0px;
+		padding: 10px;
+		background-color: #dddddd;
+		box-shadow: 1px 1px 2px rgba(0,0,0,.6);
+		transition: background-color 1s;
+	}
+	#cabecalho h2 a {
+		text-decoration: none;
+		color: #000000;
+	}
+	#cabecalho h2:hover {
+		background-color: #606060;
+	}
+	#cabecalho h2 a:hover {
+		color: #fff;
+	}
+   /*Formatação do Menu*/
+   #NavbarMenu {
+	background: #ffffff;
+	color: #FFF;
+	font-size: 12px;
+	font-family: Arial, Tahoma, Verdana;
+	position: absolute;
+	top: -20px;
+	left: 600px;
+	font-weight: bold;margin: 20px; padding: auto;
+	}
+   #NavbarMenuleft {
+	width: 100%; float: left; margin: 0;padding: 0;
+   }
+   #nav {
+   margin: 0px;
+   padding: 0px;
+   }
+   #nav ul {
+   float: left;list-style: none;margin: 0;padding: 0;
+   }
+   #nav li {
+   list-style: none;margin: 2px;padding: 10px;
+   background-color: #dddddd;
+   }
+   #nav li a{
+	   text-decoration: none;
+   }
+   #nav li a, #nav li a:link, #nav li a:visited {
+   color: #000000; /*--edite cor do link--*/
+   display: inline-block;
+   font-size: 16px;
+   font-family: Georgia, Times New Roman;font-weight: normal;text-transform: capitalize;
+   margin: 0;padding: 9px 15px 8px;border-right: 1px solid #fff;
+   transition: background-color 1s;
+   }
+   #nav li a:hover, #nav li a:active {
+   color: #FFF; /*--edite cor do link hover--*/
+   margin: 0;
+   padding: 9px 15px 8px;
+   text-decoration: none;
+   background-color: #606060;
+   }
+  
+   #nav li li a, #nav li li a:link, #nav li li a:visited {
+   width: 150px;
+   color: #000000; /*--cor do link--*/
+   font-size: 14px;
+   font-family: Georgia, Times New Roman;
+   font-weight: normal;
+   text-transform:capitalize;
+   float: none;
+   margin: 0;
+   padding: 7px 10px;
+   border-bottom: 1px solid #FFF;
+   border-left: 1px
+   solid #FFF;
+   border-right: 1px solid #FFF;
+   background-color: #dddddd;
+   transition: background-color 1s;
+   }
+   #nav li li a:hover, #nav li li a:active {
+   color: #FFF; /*--cor do link--*/
+   padding: 7px 10px;
+   background-color: #606060;
+   }
+   #nav li {float: left;padding: 0;
+   }
+   #nav li ul {z-index: 9999;position: absolute;left: -999em;height: auto;width: 170px;margin:
+	0;padding: 0;
+	}
+   #nav li ul a {width: 140px;
+   }
+   #nav li ul ul {margin: -32px 0 0 171px;}
+   #nav li:hover ul ul, #nav li:hover ul ul ul, #nav li.sfhover ul ul, #nav li.sfhover ul ul ul {
+   left: -999em;}
+   #nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover
+   ul, #nav li li li.sfhover ul {left: auto;}
+   #nav li:hover, #nav li.sfhover {position: static;}
+
+	div#notificacoes {
+		border: 1px #000000 double;
+		background-color: #fff;
+		display: block;
+		height: auto;
+		padding: 10px;
+		margin: 0px;
+		box-shadow: 2px 2px 2px rgba(0,0,0,.6);
+	}
+	div#notificacoes h2.noti {
+		font-family: 'Lemonada', cursive, sans-serif;
+		font-size: 20pt;
+		color: #ffffff;
+		text-shadow: 1px 1px 2px rgba(0,0,0,.6);
+		border: 1px solid black;
+		background-color: #606060;
+		margin: 0px;
+		padding: 0px 10px 0px 10px;
+		text-align: center;
+	}
+	div#notificacoes h4 {
+		font-family: 'Lemonada', cursive,sans-serif;
+		font-size: 13pt;
+		color: #969494;
+	}
+	a {
+		color: #969494;
+	}
+	figure#foto {
+		position: relative;
+		border: 1px solid black;
+		box-shadow: 1px 1px 2px rgba(0,0,0,.6);
+	}
+	figure#foto img {
+		height: 100%;
+		width: 100%;
+	}
+	figure#foto figcaption {
+		opacity: 0;
+		position: absolute;
+		top: 0px;
+		background-color: rgba(0,0,0,.4);
+		color:white;
+		width: 100%;
+		height: 100%;
+		padding: 10px;
+		box-sizing: border-box;
+		transition: 1s;
+	
+	}
+	figure#foto:hover figcaption {
+		opacity: 1;
+	}
+	figure#foto figcaption a {
+		color: #000000;
+		font-size: 14pt;
+	}
+	div#ministracoes {
+		border: 1px #000000 double;
+		background-color: #fff;
+		height: auto;
+		padding: 10px;
+		margin-top: 10px;
+		box-shadow: 2px 2px 2px rgba(0,0,0,.6);
+	}
+	div#ministracoes h2 {
+		font-family: 'Lemonada', cursive, sans-serif;
+		font-size: 20pt;
+		color: #ffffff;
+		text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+		border: 1px solid black;
+		background-color: #606060;
+		margin: 0px;
+		padding: 0px 10px 0px 10px;
+		text-align: center;
+	}
+	div#ministracoes h4 {
+		font-family: 'Lemonada', cursive,sans-serif;
+		font-size: 13pt;
+		color: #969494;
+	}
+	div#ministracoes a {
+		color: #000000;
+		font-size: 14pt;
+	}
+	video#video {
+		border: black dotted 2px;
+		display: block;
+		position: relative;
+		left: 200px;
+		top: 10px;
+		width: 400px;
+	}
+	div#bemvindo {
+		border: 1px #000000 double;
+		background-color: #fff;
+		height: auto;
+		padding: 10px;
+		margin-top: 10px;
+		box-shadow: 2px 2px 2px rgba(0,0,0,.6);
+	}
+	div#bemvindo h2 {
+		font-family: 'Lemonada', cursive, sans-serif;
+		font-size: 20pt;
+		color: #ffffff;
+		text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+		border: 1px solid black;
+		background-color: #606060;
+		margin: 0px;
+		padding: 0px 10px 0px 10px;
+	}
+	div#bemvindo h4 {
+		font-family: 'Lemonada', cursive,sans-serif;
+		font-size: 13pt;
+		color: #5f5d5d;
+	}
+	p {
+		font-family: 'Times New Roman', Times, serif;
+		font-size: 15pt;
+	}
+	div#bemvindo a {
+		color: #000000;
+		font-size: 14pt;
+	}
+	div#rede {
+		border: 1px #000000 double;
+		background-color: #fff;
+		height: auto;
+		padding: 10px;
+		margin-top: 10px;
+		box-shadow: 2px 2px 2px rgba(0,0,0,.6);
+	}
+	div#rede {
+		text-align: center;
+	}
+	div#rede p {
+		text-align: center;
+		font-size: 18px;
+	}
+	div#rede a {
+		color: #000000;
+	}
+
+	/*Formatação da pagina  Horario dos Cultos*/
+
